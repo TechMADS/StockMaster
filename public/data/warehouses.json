@@ -1,0 +1,25 @@
+[
+  {
+    "id": "W1",
+    "name": "Main Warehouse",
+    "location": "New York, NY",
+    "capacity": 5000,
+    "currentUsage": 3256,
+    "zones": [
+      { "id": "Z1", "name": "Zone A - Electronics", "capacity": 1500 },
+      { "id": "Z2", "name": "Zone B - Equipment", "capacity": 1500 },
+      { "id": "Z3", "name": "Zone C - Storage", "capacity": 2000 }
+    ]
+  },
+  {
+    "id": "W2",
+    "name": "Secondary Warehouse",
+    "location": "New Jersey, NJ",
+    "capacity": 3000,
+    "currentUsage": 1685,
+    "zones": [
+      { "id": "Z4", "name": "Zone D - Bulk", "capacity": 1500 },
+      { "id": "Z5", "name": "Zone E - Archive", "capacity": 1500 }
+    ]
+  }
+]

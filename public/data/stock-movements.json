@@ -1,0 +1,63 @@
+[
+  {
+    "id": "SM001",
+    "type": "receipt",
+    "productId": "1",
+    "quantity": 100,
+    "toWarehouse": "W1",
+    "date": "2024-11-20T10:30:00Z",
+    "reference": "PO-2024-001",
+    "status": "completed"
+  },
+  {
+    "id": "SM002",
+    "type": "delivery",
+    "productId": "2",
+    "quantity": 25,
+    "fromWarehouse": "W1",
+    "date": "2024-11-21T14:15:00Z",
+    "reference": "SO-2024-042",
+    "status": "completed"
+  },
+  {
+    "id": "SM003",
+    "type": "transfer",
+    "productId": "3",
+    "quantity": 50,
+    "fromWarehouse": "W1",
+    "toWarehouse": "W2",
+    "date": "2024-11-22T09:45:00Z",
+    "reference": "TR-2024-005",
+    "status": "completed"
+  },
+  {
+    "id": "SM004",
+    "type": "adjustment",
+    "productId": "4",
+    "quantity": -2,
+    "fromWarehouse": "W1",
+    "date": "2024-11-22T11:20:00Z",
+    "reference": "ADJ-2024-001",
+    "status": "completed"
+  },
+  {
+    "id": "SM005",
+    "type": "receipt",
+    "productId": "5",
+    "quantity": 500,
+    "toWarehouse": "W2",
+    "date": "2024-11-19T08:00:00Z",
+    "reference": "PO-2024-002",
+    "status": "completed"
+  },
+  {
+    "id": "SM006",
+    "type": "delivery",
+    "productId": "1",
+    "quantity": 75,
+    "fromWarehouse": "W2",
+    "date": "2024-11-21T16:30:00Z",
+    "reference": "SO-2024-043",
+    "status": "pending"
+  }
+]

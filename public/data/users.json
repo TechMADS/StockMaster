@@ -1,0 +1,9 @@
+{
+  "currentUser": {
+    "id": "1",
+    "email": "manager@stockmaster.com",
+    "name": "Sarah Johnson",
+    "role": "manager",
+    "avatar": "https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah"
+  }
+}

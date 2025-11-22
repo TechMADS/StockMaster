@@ -1,0 +1,57 @@
+[
+  {
+    "id": "1",
+    "sku": "SKU-001",
+    "name": "Industrial Widget A",
+    "category": "Electronics",
+    "description": "High-quality industrial widget for manufacturing",
+    "unitPrice": 45.99,
+    "reorderLevel": 50,
+    "currentStock": 245,
+    "warehouseLocations": [{ "warehouseId": "W1", "quantity": 150 }, { "warehouseId": "W2", "quantity": 95 }]
+  },
+  {
+    "id": "2",
+    "sku": "SKU-002",
+    "name": "Premium Component B",
+    "category": "Components",
+    "description": "Precision engineered component for assembly",
+    "unitPrice": 127.5,
+    "reorderLevel": 25,
+    "currentStock": 89,
+    "warehouseLocations": [{ "warehouseId": "W1", "quantity": 89 }]
+  },
+  {
+    "id": "3",
+    "sku": "SKU-003",
+    "name": "Standard Part C",
+    "category": "Parts",
+    "description": "Reliable standard part for maintenance",
+    "unitPrice": 22.0,
+    "reorderLevel": 100,
+    "currentStock": 340,
+    "warehouseLocations": [{ "warehouseId": "W2", "quantity": 340 }]
+  },
+  {
+    "id": "4",
+    "sku": "SKU-004",
+    "name": "Specialty Equipment D",
+    "category": "Equipment",
+    "description": "Specialized industrial equipment for production",
+    "unitPrice": 899.99,
+    "reorderLevel": 5,
+    "currentStock": 12,
+    "warehouseLocations": [{ "warehouseId": "W1", "quantity": 12 }]
+  },
+  {
+    "id": "5",
+    "sku": "SKU-005",
+    "name": "Bulk Material E",
+    "category": "Materials",
+    "description": "Raw material in bulk for processing",
+    "unitPrice": 8.5,
+    "reorderLevel": 500,
+    "currentStock": 1250,
+    "warehouseLocations": [{ "warehouseId": "W2", "quantity": 1250 }]
+  }
+]
